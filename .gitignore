@@ -29,8 +29,9 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-# Only track src directory
+# Only track src directories and their contents
 *
 !*/
 !src/
+!**/src/**
 !.gitignore
